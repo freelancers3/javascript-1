@@ -32,16 +32,24 @@ let user = "Ahmad",
   age = 23,
     message = "Assalmualaikum";
   
-let post;
+let post, address;
 console.log(post);
 
 //let post = "21149 Hamburg"; // SyntaxError: Identifier 'post' has already been declared
 post = "21149 Hamburg";
-console.log(post);
+//console.log(post);
 
 // console.log(message);
 // console.log(user);
 // console.log(age);
+
+let admin, username; // can declare two variables at once
+
+username = "Safwan";
+
+admin = username;
+
+console.log( admin ); // "Safwan"
 
 /**
  * Brackets [ ]
