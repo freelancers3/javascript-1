@@ -1,12 +1,13 @@
 // alert("Hello World !!")
 //console.log("Hello World !!");
 
-var x = 5;
+//var x = 5;
 var name = "Safwan";
 
-let c = 6;
-const B = 15;
-//B = 10;  // TypeError: Assignment to constant variable.
+let c ; 
+// const CONSTANTNUMBER ; // Uncaught SyntaxError: Missing initializer in const declaration
+const CONSTANTNUMBER = 5 ;
+// CONSTANTNUMBER = 10;  // TypeError: Assignment to constant variable.
 c = 11;
 
 
@@ -49,7 +50,8 @@ username = "Safwan";
 
 admin = username;
 
-console.log( admin ); // "Safwan"
+console.log(admin); // "Safwan"
+console.log("Abdelrahamn")
 
 /**
  * Brackets [ ]
